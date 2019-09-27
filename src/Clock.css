@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 .clock-container {
   position: relative;
   width: 20%;
@@ -7,12 +7,14 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
+  
 }
 .clock-container.styling {
   box-shadow: 0px 0px 10px #888888;
   border-radius: 50%;
   min-width: 100px;
   margin-top: 1%;
+  
 }
 .clock-container:before {
   content: "";
@@ -29,6 +31,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .clock-content .background-numbers {
   position: absolute;
@@ -66,6 +69,7 @@
   height: 22.5%;
   z-index: 4;
   background-color: #8f9c6c;
+  
 }
 .clock-content .indicator-cover {
   position: absolute;
@@ -76,18 +80,22 @@
   height: 3%;
   background-color: lightgrey;
   z-index: 5;
+  
 }
 
 .digital {
   margin-top: 50px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Bitter', serif; */
   font-size: 20px;
+  
 }
 
 .clock ul{
   list-style: none;
   padding: 0;
+  
+  
 
 }
 .clock ul li{
@@ -96,72 +104,69 @@
   height:20px;
   text-align: center;
   line-height: 20px;
-  font-size: 20px;
+  font-size: 30px;
   color:red;
 }
 .clock ul li:nth-child(1){
-  right: 20%;
-  top: 10%;
+  right: 22%;
+  top: 13%;
+  
 }
 .clock ul li:nth-child(2){
-  right: 6%;
-  top:25%;
+  right: 10%;
+  top:28%;
 }
 .clock ul li:nth-child(3){
-  right: 1%;
+  right: 5%;
   top:calc(50% - 10px);
   color:#000;
   font-size: 30px;
   font-weight: bold;
 }
 .clock ul li:nth-child(4){
-  right: 6%;
+  right: 11%;
   top:69%;
 }
 .clock ul li:nth-child(5){
-  right: 22%;
+  right: 25%;
   top:84%;
 }
 .clock ul li:nth-child(6){
   right: calc(50% - 10px);
-  top:calc(99% - 20px);
+  top:calc(96% - 20px);
   color:#000;
   font-size: 30px;
   font-weight: bold;
+  
 }
 .clock ul li:nth-child(7){
-  left: 22%;
+  left: 23%;
   top:84%;
 }
 .clock ul li:nth-child(8){
-  left: 6%;
+  left: 9%;
   top:69%;
 }
 .clock ul li:nth-child(9){
-  left: 1%;
+  left: 2%;
   top:calc(50% - 10px);
   color:#000;
   font-size: 30px;
   font-weight: bold;
 }
 .clock ul li:nth-child(10){
-  left: 6%;
-  top:25%;
+  left: 8%;
+  top:28%;
 }
 .clock ul li:nth-child(11){
   left: 22%;
-  top:6.5%;
+  top: 8%;
 }
 .clock ul li:nth-child(12){
   right: calc(50% - 10px);
-  top:1%;
+  top:2%;
   color:#000;
   font-size: 30px;
   font-weight: bold;
 }
 
-.clock .bg-image{
-  background-image: url("https://i.kym-cdn.com/entries/icons/original/000/017/225/zAp2LzJ.jpg");
-  /* max-width: 100%; 
-  max-height: 100%; */
-}

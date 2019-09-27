@@ -1,8 +1,6 @@
 import React from 'react';
 import {Component} from 'react';
-import logo from './logo.svg';
 import './Clock.css';
-// import Clock from './Clock';
 
 let time = new Date().toLocaleString();
 
@@ -47,8 +45,10 @@ class Clock extends Component{
     
         return (
           <div>
+            
             <div className="clock-container styling">
               <div id="clock" className="clock-content clock">
+                
                 
                 <ul>
                     <li><span>一</span></li>
