@@ -44,7 +44,7 @@ class Clock extends Component{
         };
     
         return (
-          <div>
+          <div className="box">
             
             <div className="clock-container styling">
               <div id="clock" className="clock-content clock">
